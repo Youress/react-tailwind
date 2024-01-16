@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color:#000300 ;
+}
+@layer components {
+  .btn-primary {
+    @apply bg-greeny w-[200px] mx-auto rounded-md font-medium my-6 py-3 text-black;
+  }
+}
